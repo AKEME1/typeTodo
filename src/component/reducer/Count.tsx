@@ -26,7 +26,12 @@ const Count = () => {
   return (
     <div>
       <p>{state.count}</p>
-      <button onClick={() => despatch({ type: "increment" })}>add+</button>
+      <button
+        className="border rounded-md"
+        onClick={() => despatch({ type: "increment" })}
+      >
+        add+
+      </button>
       <button onClick={() => despatch({ type: "decurement" })}>minus-</button>
     </div>
   );
