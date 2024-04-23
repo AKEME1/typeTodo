@@ -32,7 +32,9 @@ const Count = () => {
       >
         add+
       </button>
-      <button onClick={() => despatch({ type: "decurement" })}>minus-</button>
+      <button className="w-" onClick={() => despatch({ type: "decurement" })}>
+        minus-
+      </button>
     </div>
   );
 };

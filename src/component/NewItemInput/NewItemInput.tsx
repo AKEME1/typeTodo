@@ -12,6 +12,7 @@ const NewItemInput = ({ text, setText, onAdd }: butonForm) => {
       onAdd(text);
     }
   };
+
   return (
     <input
       value={text}
