@@ -11,6 +11,7 @@ const NewItemButton = ({ onAdd, text }: NewItemFormProps) => {
       onClick={() => onAdd(text)}
       className="bg-[#5aac44] border-none shadow-none text-white rounded-md py-[6px] px-4 text-center"
     >
+      <h1>hellw world</h1>
       Create
     </button>
   );
