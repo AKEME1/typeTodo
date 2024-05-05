@@ -14,7 +14,6 @@ const ColumnContainer = ({ text, id }: ColumnProp) => {
   const tasks = getTasksByListId(id);
   return (
     <div className="bg-[#ebecf0] w-[300px] min-h-10 mr-5 border rounded-sm px-2 py-2 flex-grow-0">
-      <h1>hellw world</h1>
       {tasks.map((task) => (
         <CardContainer text={task.text} key={task.id} id={task.id} />
       ))}

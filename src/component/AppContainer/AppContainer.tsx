@@ -6,7 +6,6 @@ const AppContainer = () => {
   const { lists } = useAppState();
   return (
     <div className="flex items-start bg-[#3179ba] h-screen p-5 w-full">
-      <h1>hellw world</h1>
       {lists.map((list) => (
         <ColumnContainer text={list.text} key={list.id} id={list.id} />
       ))}
